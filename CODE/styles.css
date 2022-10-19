@@ -1,0 +1,27 @@
+/* box sizing border box bagal mai karskte instaed niche*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+
+}
+
+.navlist{
+    align-content: center;
+    color: aliceblue;
+}
+
+.navlist :hover{
+    font-weight: bold;
+}

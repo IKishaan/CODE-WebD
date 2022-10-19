@@ -1,0 +1,240 @@
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="Scr.js"></script>
+    <style>
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc800; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffa500; 
+}
+
+html{
+background-color: #b72727;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family : 'oswald';
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top:90%;
+
+}
+
+.navlist{
+    		color: #d6911b;
+		align-content: center;
+		transition: font-size 0.5s, font-weight 0.25s;
+		font-weight : 1000;
+		font-size : 25px;
+		TEXT-DECORATION:NONE;
+}
+
+.navlist:hover{
+    		font-weight: 1500;
+    		font-size : 33px;
+		color: #DF3062;
+		cursor: pointer;
+}
+.title {
+            color: #DF3062;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 100;
+            font-style: italic;
+            margin-bottom: 25px;;
+}
+
+.sbx{
+width : 100%;
+display:flex;
+flex-wrap:wrap;
+margin-top:100px;
+justify-content: space-evenly;
+align-items:center;
+margin-bottom:100px;
+}
+.image {
+            position: relative;
+            width: 300px;
+        }
+
+        .image__img {
+            display: block;
+            width: 100%;
+            height: 250;
+            border: 1px solid;
+		margin-top:20px;
+        }
+
+        .image__overlay {
+		margin-top:20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+        .image__overlay:hover {
+            opacity: 1;
+        }
+
+        .image__title {
+            font-size: 50px;
+            font-weight: bolder;
+		FONT-FAMILY: 'Comforter Brush';
+		color: #DF3062;
+        }
+
+        .image__description {
+            font-size: 20px;
+            margin-top: 0.2em;
+		text-align:center;
+		color: #d6911b;
+        }
+</style>
+</head>
+
+<body>
+
+    <div class = 'navbar'>
+        <a href='Main.html'class="navlist">Home</a>
+        <a class="navlist">Arrowverse</a>
+	  <img src = 'icon.png' height='66' width = '66'>
+        <a class="navlist" href = 'charachters.html'>Charachters</a>
+        <a class="navlist" href = 'Feedback.html'>Feedback</a>
+    </div>
+
+<p class = 'title'> Main Charachters</p>
+
+<div class = 'sbx'>
+<div class='image'>
+            <img src="a.jpeg" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Grant Gustin</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+        <div class='image'>
+            <img src="b.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Candice Patton</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+        <div class='image'>
+            <img src="c.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Danielle Panabaker</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="d.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Rick Cosnett</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="e.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Carlos Valdes</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="f.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Tom Cavanagh</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="g.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Jesse L. Martin</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="h.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Keiynan Lonsdale</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="i.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Neil Sandilands</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+<div class='image'>
+            <img src="j.jfif" class='image__img'>
+            <div class="image__overlay">
+                <div class="image__title">Hartley Sawyer</div>
+                <p class='image__description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                    cupiditate.</p>
+            </div>
+        </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

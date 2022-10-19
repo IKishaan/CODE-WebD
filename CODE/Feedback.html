@@ -1,0 +1,284 @@
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="Scr.js"></script>
+    <style>
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc800; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffa500; 
+}
+
+html{
+background-color: #b72727;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family : 'oswald';
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 90%;
+    flex-wrap: wrap;
+
+}
+
+.navlist{
+    		color: #d6911b;
+		align-content: center;
+		transition: font-size 0.5s, font-weight 0.25s;
+		font-weight : 1000;
+		font-size : 25px;
+		TEXT-DECORATION:NONE;
+}
+
+.navlist:hover{
+    		font-weight: 1500;
+    		font-size : 33px;
+		color: #DF3062;
+		cursor: pointer;
+}
+
+
+
+#mu{
+font-weight: 1500;
+    		font-size : 25px;
+		color: #DF3062;
+		cursor: pointer;
+text-decoration:underline;
+
+}
+
+.tm{
+		margin-left: 2.5%;
+            width: 95%;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+}
+
+.txt{
+color: #d6911b;
+font-weight:1000;
+font-size:50px;
+    font-family: 'Comforter Brush';
+}
+
+.subt {
+            font-weight: bolder;
+            font-size: 30;
+            margin: 10;
+            color: #d6911b;
+            text-align: center;
+		font-style: italic;
+
+}
+
+.bend {
+            height: 35;
+            width: 75;
+            background-color: rgb(255, 235, 235);
+            color: #DF3062;
+            border: 4px solid;
+            border-radius: 33px;
+        }
+.yo{
+height: 100;}
+
+.box{
+width:90%;
+right:5%;
+}
+
+#ayo{
+transition : height 0.25s, width 0.25s, background-color 0.25s;
+}
+#ayo:hover{
+color: #FB6542;
+		cursor: pointer;
+height:40px;
+width: 80px;
+background-color:#83ffff;
+}
+
+.bd{
+
+width: 100%;
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+margin-top: 40px	
+}
+
+.sm{
+background-color:#d6911b; 
+height: 350px;
+width: 625px;
+margin-top:33px;
+margin-bottom:33px;
+border: 5px solid;
+border-radius: 66px;
+}
+
+.smtx{
+font-size: 25px;
+color: #DF3062;
+margin:25px;
+margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+    <div class = 'navbar'>
+        <a href='Main.html'class="navlist">Home</a>
+        <a class="navlist" href='Arrowverse.html'>Arrowverse</a>
+	  <img src = 'icon.png' height='66' width = '66'>
+        <a class="navlist" href = 'charachters.html'>Charachters</a>
+        <a class="navlist" id = 'mu'>Feedback</a>
+    </div>
+
+<div class = 'tm'>
+
+<img src="wc.jfif" height="450" width="400" style = 'margin:75px; border-radius:50px;'>
+
+<div class = 'txt'>
+Perfection is the enemy of progress<br>~ Winston Churchill
+</div>
+</div>
+
+<div class = 'subt'>
+We can never be perfect and should always thrive to do better. Please give a small feedback to us below so that we keep on improvising : )</div>
+
+<div class = 'form'>
+<center>
+        <br>
+        <p class='subt'>Name:</p>
+        <br>
+        <input type="text" maxlength="25" style="width: 333; height: 33;" class='bend'>
+        <br>
+        <br>
+        <p class='subt'>E-mail:</p>
+        <br>
+        <input type="email" style="width: 333; height: 33;" class = 'bend'>
+        <br>
+        <br>
+	  <p class='subt'>Password:</p>
+	  <input type='password'style="width: 333; height: 33;" class = 'bend'>
+        <p class='formtext'>Rate us:</p>
+        <br>
+        <input type = 'range' min="0" max="50">
+        <br>
+        <br>
+        <p class='subt'>Review:</p>
+        <br>
+        <textarea rows="15" cols="150" class = 'box'>
+
+        </textarea>
+        <br>
+        <br>
+	<p class='subt'>Don't post this publicly</p>
+
+        <input type="checkbox">
+        <br>
+        <br>
+        <input type="submit" value='Submit' onclick="promptMe()" class="bend" id='ayo'>
+    </form>
+
+<script>
+        function promptMe() {
+            alert("Thanks for giving feedback");
+        }
+    </script>
+
+</center>
+
+<p class= 'subt' style = 'margin-top:66px; text-decoration:underline;'> Popular Reviews</p>
+
+<DIV class = 'bd'>
+
+
+<DIV class = 'sm'>
+<p class = 'smtx'>
+Samantha<br>
+User rating : 9.5<br>
+I love the time travel, multiverse, dopleganger, the speed force and other concept. Who thought any show would have such interest scientific theories and concepts. I am expecting a lot from the upcoming seasons. Cheers!<br>
+Likes : 15638
+</p>
+</DIV>
+
+<DIV class = 'sm'>
+<p class = 'smtx'>
+David<br>
+User rating : 10<br>
+Watching the flash was my best choice ever.After finishing it I started to read DCU comics. Gotta say man, DCU comics are top-notch. The storyline, plot, everything was extremely good. Kudos to the creators of flash for such an amazing series.</br>
+Likes : 10921
+</p>
+</DIV>
+
+<DIV class = 'sm'>
+<p class = 'smtx'>
+Peter<br>
+User rating : 9.3<br>
+Just binge-watched all the 8 seasons this week. Gotta say man, you can't stop once you've started watching. The starting seasons aren't that good but it keeps getting more and more interesting. Watching it is worth your hours.</br>
+Likes : 13601
+</p>
+</DIV>
+
+<DIV class = 'sm'>
+<p class = 'smtx'>
+Samantha<br>
+User rating : 8</br>
+The flash was an exciting new addition to the arrowverse, with its first season being exceptional. I immediately fell in love with Grant Gustin's Barry Allen. Personally, I feel they're focusing more on Iris though no one cares about her. Flash is about speed not love.<br> 
+Likes : 20036
+</p>
+</DIV>
+
+
+</DIV>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class = 'yo'></div>
+</body>
+
+</html>
